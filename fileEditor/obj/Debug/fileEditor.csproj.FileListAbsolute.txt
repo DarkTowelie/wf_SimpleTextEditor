@@ -8,3 +8,13 @@ K:\VS Csh\fileEditor\fileEditor\obj\Debug\fileEditor.csproj.CoreCompileInputs.ca
 K:\VS Csh\fileEditor\fileEditor\obj\Debug\fileEditor.exe
 K:\VS Csh\fileEditor\fileEditor\obj\Debug\fileEditor.pdb
 K:\VS Csh\fileEditor\fileEditor\obj\Debug\fileEditor.F_TextEditor.resources
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.exe.config
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.exe
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.pdb
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csprojAssemblyReference.cache
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.F_TextEditor.resources
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.Properties.Resources.resources
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.GenerateResource.cache
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.CoreCompileInputs.cache
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.exe
+C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.pdb

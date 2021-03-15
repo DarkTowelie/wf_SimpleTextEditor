@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Windows.Forms;
 
 namespace fileEditor
 {
@@ -37,7 +38,7 @@ namespace fileEditor
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception: " + e.Message);
+                MessageBox.Show("Exception: " + e.Message);
             }
             return lines;
         }
@@ -51,7 +52,7 @@ namespace fileEditor
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception: " + e.Message);
+                MessageBox.Show("Exception: " + e.Message);
             }
         }
 
@@ -65,7 +66,7 @@ namespace fileEditor
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception: " + e.Message);
+                MessageBox.Show("Exception: " + e.Message);
             }
         }
     }
