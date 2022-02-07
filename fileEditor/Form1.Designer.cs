@@ -111,6 +111,9 @@ namespace fileEditor
             // 
             // rtb_Editor
             // 
+            this.rtb_Editor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtb_Editor.ContextMenuStrip = this.contextMenu_RTB;
             this.rtb_Editor.Location = new System.Drawing.Point(14, 44);
             this.rtb_Editor.Name = "rtb_Editor";

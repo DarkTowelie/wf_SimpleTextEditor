@@ -18,3 +18,13 @@ C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileE
 C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.CoreCompileInputs.cache
 C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.exe
 C:\Users\valer\Desktop\New folder\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.pdb
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.exe.config
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.exe
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\bin\Debug\fileEditor.pdb
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.AssemblyReference.cache
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.F_TextEditor.resources
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.Properties.Resources.resources
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.GenerateResource.cache
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.csproj.CoreCompileInputs.cache
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.exe
+C:\Шестаков В.В\C#\wf_SimpleTextEditor\fileEditor\obj\Debug\fileEditor.pdb
