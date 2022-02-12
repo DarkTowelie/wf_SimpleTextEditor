@@ -56,13 +56,12 @@ namespace fileEditor
             }
         }
 
-        public void writeFileAs(string text, string newFilePath)
+        public void WriteFileAs(string text, string newFilePath)
         {
             try
             {
                 filePath = newFilePath;
                 WriteText(text);
-
             }
             catch (Exception e)
             {

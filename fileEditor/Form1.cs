@@ -12,7 +12,6 @@ namespace fileEditor
 {
     public partial class F_TextEditor : Form
     {
-        string filePath = "";
         FileEditor fileEditor;
 
         public F_TextEditor()
@@ -64,8 +63,7 @@ namespace fileEditor
         {
             if (openTxtDialog.ShowDialog() == DialogResult.OK)
             {
-                filePath = openTxtDialog.FileName;
-                fileEditor = new FileEditor(filePath);
+                fileEditor = new FileEditor(openTxtDialog.FileName);
                 List<string> lines = fileEditor.ReadFile();
                 string resText = "";
                 lines.ForEach(delegate (string line)
@@ -93,13 +91,12 @@ namespace fileEditor
         {
             if (saveTxtDialog.ShowDialog() == DialogResult.OK)
             {
-                fileEditor.writeFileAs(rtb_Editor.Text, saveTxtDialog.FileName);
+                fileEditor.WriteFileAs(rtb_Editor.Text, saveTxtDialog.FileName);
             }
         }
 
         private void mb_fileClose_Click(object sender, EventArgs e)
         {
-            filePath = "";
             fileEditor = null;
             rtb_Editor.Text = "";
             LockControlls();
@@ -122,6 +119,7 @@ namespace fileEditor
             {
                 int cursorPosition = rtb_Editor.SelectionStart;
                 rtb_Editor.Text = rtb_Editor.Text.Insert(cursorPosition, Clipboard.GetText());
+                rtb_Editor.SelectionStart = cursorPosition + Clipboard.GetText().Length;
             }
                 
             else
