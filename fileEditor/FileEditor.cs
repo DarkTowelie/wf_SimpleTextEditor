@@ -15,14 +15,14 @@ namespace fileEditor
             this.filePath = filePath;
         }
 
-        void writeText(string text)
+        void WriteText(string text)
         {
             StreamWriter sw = new StreamWriter(filePath);
             sw.WriteLine(text);
             sw.Close();
         }
 
-        public List<string> readFile()
+        public List<string> ReadFile()
         {
             List<string> lines = new List<string>();
             try
@@ -44,11 +44,11 @@ namespace fileEditor
         }
 
 
-        public void writeFile(string text)
+        public void WriteFile(string text)
         {
             try
             {
-                writeText(text);
+                WriteText(text);
             }
             catch (Exception e)
             {
@@ -61,7 +61,7 @@ namespace fileEditor
             try
             {
                 filePath = newFilePath;
-                writeText(text);
+                WriteText(text);
 
             }
             catch (Exception e)

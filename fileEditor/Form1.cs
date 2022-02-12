@@ -66,20 +66,27 @@ namespace fileEditor
             {
                 filePath = openTxtDialog.FileName;
                 fileEditor = new FileEditor(filePath);
-                List<string> lines = fileEditor.readFile();
+                List<string> lines = fileEditor.ReadFile();
                 string resText = "";
                 lines.ForEach(delegate (string line)
                 {
                     resText += line + "\n";
                 });
-                rtb_Editor.Text = resText.Remove(resText.Length - 1);
+                if(!String.IsNullOrEmpty(resText))
+                {
+                    rtb_Editor.Text = resText.Remove(resText.Length - 1);
+                }
+                else
+                {
+                    rtb_Editor.Text = "";
+                }
                 UnlockControlls();
             }
         }
 
         private void mb_SaveFile_Click(object sender, EventArgs e)
         {
-            fileEditor.writeFile(rtb_Editor.Text);
+            fileEditor.WriteFile(rtb_Editor.Text);
         }
 
         private void mb_SaveFileAs_Click(object sender, EventArgs e)
